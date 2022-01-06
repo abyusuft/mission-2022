@@ -45,13 +45,10 @@ section p {
 #scroll {
     font-size: 16px;
 }
-
-
 #mission-header {
     text-align: center;
     font-size: 50px;
 }
-
 .mission-image {
     width: 40%;
     height: auto;
@@ -76,4 +73,28 @@ section p {
 #column-1 h3 {
     padding-top: 9px;
     margin:20px 0;
+}
+#develop-area, #community-area {
+    margin-top: 100px;
+}
+.develop-left, .community-right  {
+    width: 35%;
+}
+.develop-right {
+    width: 65%;
+    padding-left: 5%;
+}
+.develop-image {
+    width: 100%;
+}
+.develop-right h4, .community-left h4 {
+    font-size: 45px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.develop-right p, .community-left p {
+    font-size: 18px;
+}
+.community-left {
+    width: 65%;
 }
