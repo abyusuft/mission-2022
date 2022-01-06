@@ -12,7 +12,7 @@ section{
     display: flex;
     overflow: hidden;
 }
-.half-width{
+.half-width {
     width: 50% ;
 }
 #header-image {
@@ -57,6 +57,7 @@ section p {
     border-radius: 30px;
     margin: 0 15px;
     padding:30px;
+    width: 33%;
 }
 #column-1 {
     background-color: #FCF3CF;   
@@ -97,4 +98,55 @@ section p {
 }
 .community-left {
     width: 65%;
+    padding-right: 10%;
+}
+#contact {
+    margin-top: 70px;
+    padding-top: 10px;
+    background: #F7F7F7;
+    text-align: center;
+}
+.contact-header {
+    text-align: center;
+    font-size: 40px;
+}
+.contact-header span {
+    color:#FF8E5A;
+}
+
+#contact-image img {
+    width: 100%;
+}
+#contact h3 {
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background: black;
+    text-align: center;
+    padding: 15px 0;
+}
+#footer h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-style: italic;
+}
+#footer span {
+    color:#FF6959;
+}
+#footer p {
+    color: #ffffff;
+    font-size: 16px;
 }
