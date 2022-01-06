@@ -1,8 +1,12 @@
 body{
     margin:0;
+    font-family: 'Roboto Slab', serif;
 }
 section{
     padding:0 10%;
+}
+#header-area {
+    padding-top: 100px;
 }
 .flex {
     display: flex;
@@ -11,16 +15,33 @@ section{
 .half-width{
     width: 50% ;
 }
-img {
+#header-image {
 width: 50%;
 margin:0 25%;
 }
-#mission-header {
-
-    border-left:5px solid coral;
-    border-radius: 5px;
-    padding-left: 10px;
+#stay-focused {
+    border-left:5px solid #FF6959;
+    padding-left: 30px;
+    font-size: 50px;
+    line-height: 1em;
+}
+.text-color {
+    color:#FF8E5A ;
 }
 section p {
-    width: 100%;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.button {
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #FF6959;
+    padding:15px 40px;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom:20px;
+    display: inline-block;
+}
+#scroll {
+    font-size: 16px;
 }
