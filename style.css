@@ -25,7 +25,7 @@ margin:0 25%;
     font-size: 50px;
     line-height: 1em;
 }
-.text-color {
+.focus-color {
     color:#FF8E5A ;
 }
 section p {
@@ -44,4 +44,36 @@ section p {
 }
 #scroll {
     font-size: 16px;
+}
+
+
+#mission-header {
+    text-align: center;
+    font-size: 50px;
+}
+
+.mission-image {
+    width: 40%;
+    height: auto;
+}
+.column {
+    border-radius: 30px;
+    margin: 0 15px;
+    padding:30px;
+}
+#column-1 {
+    background-color: #FCF3CF;   
+}
+#column-2 {
+    background-color: #FAE5D3;
+}
+#column-3 {
+    background-color: #FDEDEC;
+}
+.column h3 {
+    font-size: 30px;
+}
+#column-1 h3 {
+    padding-top: 9px;
+    margin:20px 0;
 }
